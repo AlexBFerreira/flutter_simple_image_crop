@@ -2,7 +2,7 @@ part of image_crop;
 
 const _kCropOverlayActiveOpacity = 0.3;
 const _kCropOverlayInactiveOpacity = 0.7;
-const _kCropHandleSize = 10.0;
+const _kCropHandleSize = 0.0; //TODO NO TOCAR, EL VALOR POR DEFECTO ES 10
 
 enum _CropAction { none, moving, scaling }
 
